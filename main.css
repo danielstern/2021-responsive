@@ -1,0 +1,150 @@
+body {
+
+    width: 1270;
+    font-size: 20;
+}
+
+h1, h2, h3, h4, .navigation-element {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#Navigation {
+
+    width: 100%;    
+
+}
+
+#Navigation ul {
+
+        margin: 0;
+        padding-left: 0;
+
+}
+
+.navigation-element {
+
+    height: 42;
+    width: 20%;
+    padding: 8;
+    margin: 0;
+    float: left;
+    border: 1px solid gainsboro;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+.navigation-element a {
+
+    text-decoration: none;
+
+}
+
+.navigation-element:hover {
+
+    background-color: gainsboro;
+}
+
+.hero {
+
+    text-align: center;
+    padding-top: 24;
+    clear: both;
+
+}
+
+.hero h1 {
+
+    /*font-size: 36;*/
+    margin-top: 0;
+    margin-bottom: 4;
+    text-transform: uppercase;
+
+}
+
+.hero h2 {
+
+    margin: 4;
+
+}
+
+Article h2 {
+
+    margin-bottom: 8;
+}
+
+Article p {
+
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.article-column {
+
+    width: 50%;
+    float: left;
+    padding-left: 8;
+    padding-right: 8;
+    box-sizing: border-box;
+
+}
+
+.articles {
+
+    clear: both;
+    
+}
+
+#Navigation .logo {
+
+    background-image: url("img/WST LOGO.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+#Navigation h1 {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+#Footer {
+    
+    clear: both;
+    margin-top: 8;
+    padding-top: 4;
+    width: 100%;
+    border-top: 1px solid plum;
+}
+
+#Footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#Footer li {
+
+    display: inline-block;
+    margin-right: 12;
+    
+}
+
+.footer-legal {
+
+    margin-right: 16;
+    
+}
+
+.footer-menu, .footer-legal {
+
+    float: left; 
+    font-size: 0.8rem;
+
+}

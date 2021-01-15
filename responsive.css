@@ -1,0 +1,97 @@
+@media 
+    screen and (max-width: 768px),
+    screen and (min-device-width: 300px) and (-webkit-min-device-pixel-ratio: 2)
+    {
+
+    body {
+
+        width: 100%;
+        font-size: 2vh;
+        padding: 0;
+        margin: 0;
+    
+    }
+    
+    .navigation-element {
+
+        float: none;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12;
+
+    }
+
+    #Navigation .logo {
+
+        background-image: url("img/WST LOGO SM.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+    }
+
+    .article-column {
+
+        width: 100%;
+        float: none;
+        padding-left: 8;
+        padding-right: 8;
+
+    }
+
+    .footer-menu {
+
+        width: 100%;
+    }
+
+    .footer-menu li, .footer-legal {
+
+        text-align: center;
+        float: none; 
+        font-size: 0.8rem;
+        width: 100%;
+        height: 30;
+        padding: 8;
+        border: 1px solid gainsboro;
+        display: block; 
+        background-color: whitesmoke;
+        box-sizing: border-box;
+        
+
+    }
+
+    .footer-menu li:hover {
+
+        background-color: gainsboro;
+
+    }
+
+    .footer-menu a {
+
+        text-decoration:  none;
+
+    }
+
+    #Footer li {
+
+        margin-right: 0;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+
+    body {
+
+        width: 100%;
+
+    }    
+
+    .navigation-element {
+
+        font-size: 1rem;
+        padding: 12;
+
+    }
+
+}
